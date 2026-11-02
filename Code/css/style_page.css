@@ -1,0 +1,278 @@
+/*Background and general layout*/
+body {
+    margin: 0;
+    padding: 0;
+    height: 1vh;
+    width: 1vw;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+.title {
+    border: 5px solid black;
+    width: 235px;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+#navigation_bar {
+    position: fixed;
+    top: 20px;
+    left: 700px;
+    list-style-type: none;
+    grid-template-columns: auto auto auto auto;
+    display: grid;
+    gap: 10px;
+
+    .navButton {
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        box-shadow: 1px 2px 1px 1px #2a2929;
+        text-align: center;
+        background: #fff;
+        color: #000;
+        width: 8em;
+        border-radius: 16px;
+        padding: 0.7em;
+
+    }
+
+}
+
+/*Image styles for home page*/
+#Grocery {
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    height: 550px;
+    width: 550px;
+}
+
+/*input form style for login and registration pages*/
+.input {
+    position: absolute;
+    top: 175px;
+    left: 150px;
+    display: grid;
+    text-align: center;
+    grid-template-rows: auto auto auto auto auto 70px 100px;
+    box-shadow: 3px 3px 5px 6px #2a2929;
+    padding: 20px;
+
+    height: 500px;
+    width: 500px;
+
+    background-color: #FFFFFF;
+
+    border-radius: 50%;
+
+    .heading {
+        text-align: center;
+        height: 70px;
+        width: 70px;
+        padding: 10px 20px;
+        background-color: white;
+        border-radius: 50%;
+    }
+
+    #feedback {
+        color: red;
+        font-weight: bold;
+        text-align: center;
+        grid-template-rows: auto auto auto;
+    }
+
+}
+
+
+
+/*Button style for login and registration pages*/
+.button {
+    text-align: center;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    width: 8em;
+    border-radius: 16px;
+    padding: 0.7em;
+}
+
+/*Table style for rankings page*/
+#rankingsTable {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    display: grid;
+    text-align: center;
+    grid-template-rows: auto auto;
+    border: #000000 2px solid;
+    box-shadow: 3px 3px 5px 6px #2a2929;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+
+/* image style for game page */
+#apple {
+    position: absolute;
+    top: 150px;
+    left: 325px;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url("../images/apple.png");
+}
+
+#banana {
+    position: absolute;
+    top: 150px;
+    left: 325px;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url("../images/banana.png");
+}
+
+#bread {
+    position: absolute;
+    top: 150px;
+    left: 325px;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url("../images/bread.png");
+}
+
+#cheese {
+    position: absolute;
+    top: 150px;
+    left: 325px;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url("../images/cheese.png");
+}
+
+#chicken {
+    position: absolute;
+    top: 150px;
+    left: 325px;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url("../images/chicken.webp");
+}
+
+#eggs {
+    position: absolute;
+    top: 150px;
+    left: 325px;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url("../images/eggs.png");
+}
+
+#milk {
+    position: absolute;
+    top: 150px;
+    left: 325px;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url("../images/milk.png");
+}
+
+#pasta {
+    position: absolute;
+    top: 150px;
+    left: 325px;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url("../images/pasta.webp");
+}
+
+#rice {
+    position: absolute;
+    top: 150px;
+    left: 325px;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url("../images/rice.webp");
+}
+
+#tomatoSauce {
+    position: absolute;
+    top: 150px;
+    left: 325px;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url("../images/tomatoSauce.webp");
+}
+
+
+
+/*Text Style and Colour*/
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+title {
+    color: rgb(11, 11, 60);
+}
+
+h1 {
+    color: rgb(11, 11, 60);
+}
+
+h2 {
+    color: rgb(11, 11, 60);
+}
+
+h3 {
+    color: rgb(11, 11, 60);
+}
+
+p {
+    color: rgb(11, 11, 60);
+}
+
+/*Game style*/
+#gameSection {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    height: 400px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 3px 3px 5px 6px #2a2929;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+.link_to_other_pages {
+    text-align: center;
+    height: 150px;
+    width: 200px;
+    background-color: white;
+    margin-top: 20px;
+    position: relative;
+    top: 450px;
+    left: 50px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 3px 3px 5px 6px #2a2929;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style_page.css">
+    <meta charset="UTF-8">
+    <title>Shopping Frenzy</title>
+    <script src="javascript/users.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1 class="title"><b>Shopping Frenzy</b></h1>
+        <ul id="navigation_bar">
+
+            <li>
+                <a href="index.html">
+                    <button class="navButton">Login</button>
+                </a>
+            </li>
+            <li>
+                <a href="register.html">
+                    <button class="navButton">Register</button>
+                </a>
+            </li>
+            <li>
+                <a href="game.html">
+                    <button class="navButton">Game</button>
+                </a>
+            </li>
+            <li>
+                <a href="rankings.html">
+                    <button class="navButton">Rankings</button>
+                </a>
+            </li>
+        </ul>
+
+        <nav class="input">
+            <div>
+                <h2>Register</h2>
+            </div>
+            <div>
+                <p>Username
+                    <input type="Username" id="UsernameInput" value="Username">
+                </p>
+            </div>
+
+            <div>
+                <p>Password
+                    <input type="Password" id="PasswordInput" value="Password">
+                </p>
+            </div>
+
+            <div>
+                <p>Email
+                    <input type="email" id="EmailInput" value="example.whatever@gmail.com">
+                </p>
+            </div>
+
+            <div>
+                <p>City
+                    <input type="City" id="CityInput" value="London">
+                </p>
+            </div>
+
+            <div>
+                <button class="button" onclick="register()">Submit</button>
+            </div>
+            <div id = "feedback">
+                <p>Already have an account? Log in here!</p>
+                <a href="index.html">
+                    <button class = "button" >Login</button>
+                </a>
+            </div>
+        </nav>
+
+
+        <img id="Grocery" src="images/Grocery.png" alt="Grocery">
+
+        <div class="link_to_other_pages">
+            <p>Already have an account? Click here to login!</p>
+            <a href="index.html">
+                <button class="button">Login</button>
+            </a>
+        
+    </div>
+</body>
+
+</html>
